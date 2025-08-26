@@ -1,0 +1,10 @@
+nome = str(input("qual o nome do seu personagem?: "))
+import random
+força = random.randint(1, 20)
+velocidade = random.randint(1, 20)
+inteligencia = random.randint(1,20)
+carisma = random.randint(1, 20)
+status_força = print(f"seus status de força é {força}")
+status_velocidade = print(f"seus status de velocidade é {velocidade}")
+status_inteligencia = print(f"seus status de inteligencia é {inteligencia}")
+status_carisma = print(f"seus status de carisma é {carisma}")
